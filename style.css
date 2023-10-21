@@ -1,54 +1,80 @@
 body {
-    padding-top: 70px; 
-    background-color: #d2d2f1;
-  }
-  
-  .content {
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-  .navbar {
-    background-color: #1f1fb1;
-  }
-  .navbar-nav .nav-link {
-    color: white !important;
-  }
-  h1, h2,h5 {
-    color: #090961;
+  padding-top: 70px;
+  background-color: #d2d2f1;
+}
+
+.content {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.navbar {
+  background-color: #1f1fb1;
+}
+
+.navbar-nav .nav-link {
+  color: white !important;
+}
+
+h1,h2,h5,li {
+  color: #090961;
+  text-align: center;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  /* Ajusta la altura según tus necesidades */
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  /* Centrar horizontalmente */
+  align-items: center;
+  /* Centrar verticalmente */
+  height: 60vh;
+  /* Esto es opcional y ajusta la altura según tus necesidades */
+}
+
+.centered-image {
+  max-width: 80%;
+  /* Ajusta el tamaño máximo de la imagen según tus necesidades */
+  max-height: 80%;
+  /* Ajusta la altura máxima de la imagen según tus necesidades */
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table td {
+  padding: 5px;
+  /* Ajusta el espaciado interno según tus necesidades */
+  text-align: center;
+  /* Alineación del contenido al centro */
+}
+
+.table td:nth-child(odd) {
+  background-color: #2714cc;
+  /* Color de fondo para las celdas impares */
+}
+
+.table td:nth-child(even) {
+  background-color: #2714cc;
+  /* Color de fondo para las celdas pares */
+}
+
+.table td {
+  font-size: 14px;
+  /* Tamaño de fuente */
+  color: blanchedalmond;
+
+  /* Color del texto */
+  .container {
     text-align: center;
+    /* Centra el contenido del contenedor */
   }
-  .video-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 60vh; /* Ajusta la altura según tus necesidades */
-  }
-  .contact-container {
-    display: flex;
-    justify-content: center; /* Centrar horizontalmente */
-    align-items: center; /* Centrar verticalmente */
-    height: 60vh; /* Esto es opcional y ajusta la altura según tus necesidades */
-  }
-  
-  .centered-image {
-    max-width: 80%; /* Ajusta el tamaño máximo de la imagen según tus necesidades */
-    max-height: 80%; /* Ajusta la altura máxima de la imagen según tus necesidades */
-  }
-  .table {
-    width: 100%;
-    border-collapse: collapse;
-  }
-  .table td {
-    padding: 5px; /* Ajusta el espaciado interno según tus necesidades */
-    border: 1px solid #6c2bc0; /* Borde para las celdas */
-    text-align: center; /* Alineación del contenido al centro */
-  }
-  .table td:nth-child(odd) {
-    background-color: #bcf5f2; /* Color de fondo para las celdas impares */
-  }
-  .table td:nth-child(even) {
-    background-color: #bcf5f2; /* Color de fondo para las celdas pares */
-  }
-  .table td {
-    font-size: 14px; /* Tamaño de fuente */
-    color: hsl(0, 87%, 3%); /* Color del texto */
